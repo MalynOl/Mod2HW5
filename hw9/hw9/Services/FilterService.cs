@@ -10,7 +10,6 @@
             {
                 if (instruments[i].IsCanKeepInHand == isKeep && instruments[i].CountString < countStrings)
                 {
-                    // filterMusicalInstruments.Add(instruments[i]);
                     if (filterMusicalInstruments.Length == 1 && filterMusicalInstruments[0] == null)
                     {
                         filterMusicalInstruments[0] = instruments[i];
